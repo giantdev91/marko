@@ -1,0 +1,26 @@
+{
+  "name": "appollo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "graphql": "^16.6.0",
+    "graphql-compose": "^9.0.10",
+    "graphql-compose-mongoose": "^9.8.0",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "hardhat": "^2.15.0",
+    "typescript": "^5.0.4"
+  }
+}
